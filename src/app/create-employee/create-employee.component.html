@@ -1,0 +1,72 @@
+<div class="col-md-6 offset-md-3">
+<h3> Create Employee </h3>
+<form (ngSubmit)="onSubmit()">
+    
+
+    <div class="form group">
+        <label> First Name</label>
+        <input type="text" class="form-control" id="firstname"
+            [(ngModel)] = "employee.firstname" name="firstname">
+    </div>
+
+    <div class="form group">
+        <label> Last Name</label>
+        <input type="text" class="form-control" id="lasstname"
+            [(ngModel)] = "employee.lastname" name="lastname">
+    </div>
+
+    <div class="form group">
+        <label> Email Id</label>
+        <input type="text" class="form-control" id="email"
+            [(ngModel)] = "employee.email" name="email">
+        
+    </div>
+
+    <div class="form group">
+        <label> Gender</label>
+        <input type="text" class="form-control" id="gender"
+            [(ngModel)] = "employee.gender" name="gender">
+        
+    </div>
+
+    <div class="form group">
+        <label> Age</label>
+        <input type="text" class="form-control" id="age"
+            [(ngModel)] = "employee.age" name="age">
+        
+    </div>
+
+    <div class="form group">
+        <label> Department Id</label>
+        <input type="text" class="form-control" id="departmentId"
+            [(ngModel)] = "employee.departmentId" name="departmentId">
+        
+    </div>
+
+    <div class="form group">
+        <label> Jobrole</label>
+        <input type="text" class="form-control" id="jobrole"
+            [(ngModel)] = "employee.jobrole" name="jobrole">
+        
+    </div>
+
+    <div class="form group">
+        <label> Salary</label>
+        <input type="text" class="form-control" id="salary"
+            [(ngModel)] = "employee.salary" name="salary">
+        
+    </div>
+
+    <div class="form group">
+        <label> User Id</label>
+        <input type="text" class="form-control" id="userId"
+            [(ngModel)] = "employee.userId" name="userId">
+        
+    </div>
+
+
+    <button class="btn btn-success" type="onsubmit">Submit</button>
+
+
+</form>
+</div>
